@@ -11,6 +11,8 @@ namespace TicTacToeGame
             TicTacToe tictactoe = new TicTacToe();
             tictactoe.Game();
             tictactoe.chooseLetter();
+            char[] board = new char[10];
+            tictactoe.ShowBoard(board);
         }
 
     }
