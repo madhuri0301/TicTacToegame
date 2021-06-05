@@ -10,6 +10,8 @@ namespace TicTacToeGame
 
             TicTacToe tictactoe = new TicTacToe();
             tictactoe.Game();
+            tictactoe.chooseLetter();
         }
+
     }
 }
